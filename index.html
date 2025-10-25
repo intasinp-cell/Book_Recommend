@@ -83,6 +83,29 @@
       color: #fff;
     }
 
+/* บังคับลบเส้นขอบด้านล่างของ Accordion Header */
+.accordion-header {
+  border-bottom: none !important;
+}
+
+/* ลบเส้นขอบด้านบนของ Accordion Body ที่เปิดอยู่ (ถ้ามี) */
+.accordion-body {
+  border-top: none !important;
+}
+
+/* ลบเส้นขอบทั้งหมดของ Accordion Item */
+.accordion-item,
+.accordion-header,
+.accordion-button {
+  border: none !important;
+}
+
+/* ลบเส้นขอบด้านล่างของ Accordion Body ที่เปิดอยู่ */
+.accordion-body {
+  border-bottom: none !important;
+}
+
+
 
     footer {
       background-color: #333333;
@@ -311,7 +334,7 @@ h3 {
 
             </div>
           </div>
-        </div>
+         </div>
       
      <h3 id="benefit">หนังสือเล่มนี้ ให้อะไรกับเรา? </h3>
 
